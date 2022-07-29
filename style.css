@@ -108,11 +108,11 @@ header, #content, footer {
 
 /* Menu Links */
 ul.main-menu {
-  margin: 0;
   padding: 0;
+  margin-left: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
@@ -137,5 +137,10 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
+.centerImage
+{
+ margin-right: 42px;
+ text-align:center;
+ display:block;
+}
 
