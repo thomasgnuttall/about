@@ -1,0 +1,82 @@
+# Performances, listed below the music on the music tab. They are sorted newest first automatically,
+# so a new one can go anywhere in this file.
+#   act, venue and date (YYYY-MM-DD) are required; event and links are optional.
+#
+# - act: Mukti
+#   venue: "Venue Name, City"
+#   event: "Festival Name"
+#   date: 2026-05-01
+#   links:
+#     - { label: link, url: "https://..." }
+
+- act: Awa Pa Los Calvos
+  venue: "Plaça Navas, Barcelona"
+  event: "Festa Major Popular del Poble Sec"
+  date: 2022-07-16
+  links:
+    - { label: link, url: "https://twitter.com/AteneuBase/status/1546400141531308032" }
+
+- act: Awa Pa Los Calvos
+  venue: "La Base, Ateneu Cooperatiu, Barcelona"
+  event: "Chorifest"
+  date: 2023-02-18
+  links:
+    - { label: link, url: "https://www.instagram.com/p/CoYJJuHKJ3m/?hl=en" }
+
+- act: Mukti
+  venue: "Sala Aranyó, Universitat Pompeu Fabra, Barcelona"
+  event: "Phonos Worldwide"
+  date: 2023-03-28
+  links:
+    - { label: link, url: "https://www.upf.edu/web/mtg/home/-/asset_publisher/sWCQhjdDLWwE/content/phonos-worldwide-four-musical-traditions-from-around-the-world/maximized" }
+
+- act: Awa Pa Los Calvos
+  venue: "El Centre Cultural Albareda, Barcelona"
+  event: "Albareda Primavera"
+  date: 2023-05-26
+  links:
+    - { label: link, url: "https://ajuntament.barcelona.cat/ccivics/albareda/p/52213/awa-pa-los-calvos" }
+
+- act: Awa Pa Los Calvos
+  venue: "Las Fiestas de Pacifico, Madrid"
+  date: 2023-06-24
+  links:
+    - { label: link, url: "https://gacetinmadrid.com/2023/06/10/los-rebeldes-angulo-muerto-y-awa-pa-los-calvos-protagonizaran-las-fiestas-de-san-juan-de-retiro-2023-programacion-completa/" }
+
+- act: Awa Pa Los Calvos
+  venue: "Last Summer Dance Festival, Schlasspark Erpeldange-Sur-Sûre, Luxembourg"
+  date: 2023-08-25
+
+- act: Mukti
+  venue: "La Mercè, Barcelona"
+  date: 2023-09-23
+
+- act: Awa Pa Los Calvos
+  venue: "Jamboree Dance Club, Barcelona"
+  date: 2024-06-08
+  links:
+    - { label: link, url: "https://jamboreejazz.com/en/events/awa-pa-los-calvos/" }
+
+- act: Mukti
+  venue: "Chorifest, Barcelona"
+  date: 2025-02-14
+
+- act: Awa Pa Los Calvos
+  venue: "Jamboree Dance Club, Barcelona"
+  date: 2025-05-09
+
+- act: Awa Pa Los Calvos
+  venue: "Cafe La Palma, Madrid"
+  date: 2025-05-24
+
+- act: Awa Pa Los Calvos
+  venue: "Festa Major de Ripollet, Ripollet"
+  date: 2025-08-28
+
+- act: Awa Pa Los Calvos
+  venue: "Festa Major de Poble Nou, Barcelona"
+  date: 2025-08-30
+
+- act: Awa Pa Los Calvos
+  venue: "Festes Alternatives de Sants, Barcelona"
+  date: 2025-09-05

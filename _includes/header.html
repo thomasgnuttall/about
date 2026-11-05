@@ -1,0 +1,9 @@
+<header id="header">
+  <div class="logo-wrap"><img src="assets/images/logo.png" class="logo" alt=""></div>
+  <h1 class="site-title">{{ site.title }}</h1>
+  <ul class="main-menu">
+    {% for section in site.data.sections %}
+    <li><a href="#{{ section.id }}">{{ section.label }}</a></li>
+    {% endfor %}
+  </ul>
+</header>

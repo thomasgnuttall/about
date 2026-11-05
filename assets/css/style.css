@@ -91,9 +91,8 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
 html {
-  background:url(sky.jpeg) center center no-repeat fixed;
+  background:url(../images/sky.jpeg) center center no-repeat fixed;
   background-size:cover;
 }
 body {
@@ -137,10 +136,71 @@ ul.main-menu li a.active {
   display:block;
 }
 
-.centerImage
-{
- margin-right: 42px;
- text-align:center;
- display:block;
+.centered {
+  text-align:center;
 }
 
+/* Header */
+.logo-wrap {
+  display:flex;
+  justify-content:center;
+}
+.logo {
+  margin-right:42px;
+  display:block;
+}
+.site-title {
+  text-align:center;
+  font-weight:400;
+}
+footer {
+  text-align:center;
+}
+
+/* About */
+.prose {
+  text-align:justify;
+}
+.recent {
+  margin-bottom:2.25rem;
+}
+.recent h4 {
+  margin-bottom:2.25rem;
+}
+.divider {
+  border:none;
+  height:1px;
+  background-color:#757575;
+  margin:2.25rem 0;
+}
+
+/* Embedded players shrink to fit narrow screens */
+iframe {
+  max-width:100%;
+}
+.embed-video {
+  height:auto;
+  aspect-ratio:560 / 315;
+}
+
+/* Music */
+.media-item {
+  margin:2.25rem 0;
+}
+
+/* Design */
+.gallery {
+  margin:2.25rem 0;
+}
+.gallery figure {
+  margin:0;
+  padding-top:4.8rem;
+}
+.gallery img {
+  width:700px;
+  max-width:100%;
+  height:auto;
+}
+.gallery figcaption {
+  margin-top:2.4rem;
+}

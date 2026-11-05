@@ -1,0 +1,7 @@
+# Links in the page footer.
+- label: Github
+  url: "https://github.com/thomasgnuttall"
+- label: Scholar
+  url: "https://scholar.google.com/citations?user=11bIYxsAAAAJ&hl=en&authuser=1"
+- label: Mail
+  url: "mailto:thomas.nuttall@upf.edu"

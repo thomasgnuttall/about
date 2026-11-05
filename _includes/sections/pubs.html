@@ -1,0 +1,9 @@
+{% for group in site.data.publications %}
+<h3>{{ group.heading }}</h3>
+{% for entry in group.entries %}
+<p>
+  {% include citation.html entry=entry %}
+  {% include links.html links=entry.links %}
+</p>
+{% endfor %}
+{% endfor %}

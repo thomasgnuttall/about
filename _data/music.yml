@@ -1,0 +1,13 @@
+# Items on the music tab, in display order.
+# Use `youtube: <video id>` or `spotify_album: <album id>` for the player.
+# Each line of `caption` is a separate line under the player; HTML is allowed.
+- title: "Mukti - Kahan Re Aaya Tu"
+  youtube: 6TnyzH6Os_A
+  caption:
+    - "Music - Mukti | Video - Ana Tejedor | Mixing/Mastering - Raimon Aranyó"
+    - "Winner of First Prize in the category of Original Music Composition at the <a href='https://www.upf.edu/en/web/e-noticies/home/-/asset_publisher/wEpPxsVRD6Vt/content/230-obres-mostren-la-creativitat-de-la-comunitat-universit%C3%A0ria-en-l-edici%C3%B3-2023-dels-concursos-de-sant-jordi/10193/maximized'>UPF Sant Jordi Awards 2023</a>, Barcelona"
+
+- title: "Awa Pa Los Calvos - Awa"
+  spotify_album: 5g3B4XkXxluPx0KfJrmMuY
+  caption:
+    - "Debut EP by Awa Pa Los Calvos. Recorded and produced at La Atlántida Estudio, Barcelona."

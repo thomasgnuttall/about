@@ -1,0 +1,10 @@
+title: Thomas Nuttall
+description: The life and works of Thomas Nuttall
+author: Thomas Nuttall
+
+# Nothing below is part of the published site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

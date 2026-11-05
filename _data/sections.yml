@@ -1,0 +1,10 @@
+# The tabs in the menu, in order. Each `id` is the URL fragment (#id) and
+# renders _includes/sections/<id>.html.
+- id: about
+  label: about
+- id: pubs
+  label: publications
+- id: music
+  label: music
+- id: design
+  label: design

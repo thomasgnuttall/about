@@ -1,0 +1,48 @@
+# Items on the design tab, in display order.
+#   image: a file in assets/images/design/
+#   alt:   what the image shows, for people who can't see it
+#   title: the caption, with no final full stop
+#   year and note (a sentence or two after the title) are optional
+
+- image: awa_madrid.jpg
+  alt: "Poster with a white teardrop shape on deep blue, containing the band name in hand-drawn letters."
+  title: "Awa Pa Los Calvos at Las Fiestas de Pacifico, Madrid"
+  year: 2023
+  note: >-
+    This design is inspired by Joan Miró's "Mano apresando un pájaro".
+
+- image: nusrat_mukti.webp
+  alt: "Album-cover-style poster of a guitarist and a harmonium player sitting cross-legged, on a purple-to-peach background with yellow stars under the word Mukti."
+  title: "Mukti Masala concert poster"
+  note: >-
+    Inspired by Nusrat Fateh Ali Khan's album cover for Mighty Khan vol. 23.
+
+- image: jamboree.jpg
+  alt: "Green poster headed Emergència per sequera, showing water splashing out of a green bucket printed with the band name."
+  title: "Awa Pa Los Calvos at Jamboree Dance Club"
+  year: 2024
+
+- image: demacre.jpg
+  alt: "Single cover of a glowing green geometric sphere floating in a starry dark sky above a pink horizon."
+  title: "Demacre single by Awa Pa Los Calvos"
+
+- image: awa_portada.jpg
+  alt: "EP cover of an interlocking maze-like pattern of green and pink three-dimensional bars on a blue-to-peach gradient."
+  title: "Awa EP by Awa Pa Los Calvos"
+
+- image: aplc_square.jpg
+  alt: "Square illustration with the band name in blue letters over cartoon figures on a green and white road, framed by a yellow zebra-striped border."
+  title: "Awa Pa Los Calvos at La Albareda"
+  year: 2023
+  note: >-
+    This design takes drawings from Jiro Bevis and Brian Blomerth's "A Bicycle Day". The design was originally used to promote a non-profit community event and is no longer in use.
+
+- image: phonos_worldwide.jpg
+  alt: "Concert poster with a world map on dark green above the title Phonos Worldwide and the names of the four musical traditions and performers."
+  title: "Phonos Worldwide concert"
+  year: 2023
+
+- image: tetrabrik.svg
+  alt: "Black and white drawing of a juice carton with a bent straw printed with the band name, on zebra stripes, with the words Sabor Exquisito."
+  title: "Awa Pa Los Calvos Tetrabrik T-shirt design"
+  year: 2024

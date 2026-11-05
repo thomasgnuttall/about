@@ -1,0 +1,166 @@
+# References on the publications tab: headings and entries, displayed in the order
+# written here, newest first. Performances are in performances.yml.
+#
+# Each entry renders as:  Authors. "Title." Venue, Year.  paper | code
+# Write the text without that punctuation and it is added for you:
+#
+# - authors: "A Name, B Name"
+#   title: "Title in Title Case"
+#   venue: "Proceedings of the Nth Conference Name (ACRONYM)"
+#   year: 2026
+#   links:
+#     - { label: paper, url: "https://..." }
+#     - { label: code, url: "https://..." }
+
+- heading: Journal Publications
+  entries:
+    - authors: "Lara Pearson, Thomas Nuttall, Wim Pouw"
+      title: "The Co-Structuring of Gesture-Vocal Dynamics: An Exploration in Karnatak Music Performance"
+      venue: "Cognitive Science 49.11"
+      year: 2025
+      links:
+        - { label: paper, url: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.70137" }
+        - { label: code, url: "https://github.com/thomasgnuttall/KarnatakGestureVocalCostructuring" }
+
+    - authors: "Genís Plaja-Roglans, Thomas Nuttall, Lara Pearson, Xavier Serra, Marius Miron"
+      title: "Repertoire-Specific Vocal Pitch Data Generation for Improved Melodic Analysis of Carnatic Music"
+      venue: "Transactions of the International Society for Music Information Retrieval"
+      year: 2023
+      links:
+        - { label: paper, url: "https://transactions.ismir.net/articles/10.5334/tismir.137" }
+
+    - authors: "Thomas Nuttall, Miguel Garcia Casado, Andres Ferraro, Darrell Conklin, Rafael Caro Repetto"
+      title: "A Computational Exploration of Melodic Patterns in Arab-Andalusian Music"
+      venue: "Journal of Mathematics and Music, pp. 1-13"
+      year: 2021
+      links:
+        - { label: paper, url: "https://www.tandfonline.com/doi/abs/10.1080/17459737.2021.1917010" }
+
+- heading: Conference Papers
+  entries:
+    - authors: "Thomas Nuttall, Vivek Vijayan, Xavier Serra, Lara Pearson"
+      title: "Leveraging Melodic Context for Improved Svara Representation"
+      venue: "Proceedings of the 17th International Symposium on Computer Music Multidisciplinary Research (CMMR)"
+      year: 2025
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/server/api/core/bitstreams/740fdc16-dd7e-4311-b190-2b22148cd5bd/content" }
+        # code link to add when available
+
+    - authors: "Thomas Nuttall, Xavier Serra, Lara Pearson"
+      title: "Svara-Forms in Carnatic Music: Contextual Influences on the Performance of Svara"
+      venue: "Proceedings of the Workshop on Indian Music Analysis and Generative Applications (WIMAGA), a Satellite Workshop of the IEEE International Conference on Acoustics, Speech, and Signal Processing"
+      year: 2025
+      links:
+        - { label: paper, url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11011084" }
+        - { label: code, url: "https://github.com/thomasgnuttall/svara-forms/tree/main" }
+
+    - authors: "Adithi Shankar, Genís Plaja-Roglans, Thomas Nuttall, Martín Rocamora, Xavier Serra"
+      title: "Saraga Carnatic Audiovisual: A Large Multimodal Open Data Collection for the Analysis of Carnatic Music"
+      venue: "Proceedings of the 25th International Society for Music Information Retrieval Conference (ISMIR)"
+      year: 2024
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/server/api/core/bitstreams/31d78344-d40e-43c2-a47e-c00bd232a7ae/content" }
+        # code link to add when available
+
+    - authors: "Thomas Nuttall, Xavier Serra, Lara Pearson"
+      title: "Svara-Forms and Coarticulation in Carnatic Music: An Investigation Using Deep Clustering"
+      venue: "Proceedings of the 11th International Conference on Digital Libraries for Musicology (DLFM)"
+      year: 2024
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/handle/10230/60674" }
+        - { label: code, url: "https://github.com/MTG/svaraforms-coarticulation" }
+
+    - authors: "Lara Pearson, Thomas Nuttall, Wim Pouw"
+      title: "Motif-Gesture Clustering in Karnatak Vocal Performance: A Multimodal Computational Music Analysis"
+      venue: "Proceedings of the 17th International Conference on Music Perception and Cognition (ICMPC)"
+      year: 2023
+      # code link to add when available
+
+    - authors: "Thomas Nuttall, Genís Plaja-Roglans, Lara Pearson, Xavier Serra"
+      title: "In Search of Sañcaras: Tradition-Informed Repeated Melodic Pattern Recognition in Carnatic Music"
+      venue: "Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR)"
+      year: 2022
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/handle/10230/54155" }
+        - { label: code, url: "https://github.com/MTG/searching_for_sancaras" }
+
+    - authors: "Thomas Nuttall, Genís Plaja-Roglans, Lara Pearson, Xavier Serra"
+      title: "The Matrix Profile for Motif Discovery in Audio - An Example Application in Carnatic Music"
+      venue: "Proceedings of the 15th International Symposium on Computer Music Multidisciplinary Research (CMMR)"
+      year: 2021
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/handle/10230/52182?locale-attribute=en" }
+        - { label: code, url: "https://github.com/thomasgnuttall/carnatic-motifs-cmmr-2021" }
+
+    - authors: "Thomas Nuttall, Behzad Haki, Sergi Jorda"
+      title: "Transformer Neural Networks for Automated Rhythm Generation"
+      venue: "Proceedings of the International Conference on New Interfaces for Musical Expression (NIME)"
+      year: 2021
+      links:
+        - { label: paper, url: "https://nime.pubpub.org/pub/8947fhly/release/1?readingCollection=71dd0131" }
+        - { label: code, url: "https://github.com/thomasgnuttall/bumblebeat" }
+
+    - authors: "Genís Plaja-Roglans, Thomas Nuttall, Xavier Serra, Marius Miron"
+      title: "Continuing CompMusic: New Approaches in the Computational Analysis of Carnatic Music"
+      venue: "Proceedings of the 26th International Symposium on Frontiers of Research in Speech and Music (FRSM)"
+      year: 2021
+      # paper link to add when available
+
+    - authors: "Thomas Nuttall, Miguel Garcia Casado, Rafael Caro Repetto, Xavier Serra"
+      title: "Contributing to New Musicological Theories with Computational Methods: The Case of Centonization in Arab-Andalusian Music"
+      venue: "Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR)"
+      year: 2019
+      links:
+        - { label: paper, url: "https://repositori.upf.edu/handle/10230/47632?locale-attribute=en" }
+        - { label: code, url: "https://github.com/thomasgnuttall/quantifying_centones" }
+
+- heading: Conference Abstracts
+  entries:
+    - authors: "Lara Pearson, Thomas Nuttall, Wim Pouw"
+      title: "Motif-Gesture Contiguity in Karnatak Vocal Performance: A Multimodal Computational Music Analysis"
+      venue: "2nd International Multimodal Communication Symposium (MMYSM)"
+      year: 2024
+      # code link to add when available
+
+    - authors: "Lara Pearson, Thomas Nuttall, Wim Pouw"
+      title: "Motif-Gesture Contiguity in Karnatak Vocal Performance: A Multimodal Computational Music Analysis"
+      venue: "12th Triennial Conference of the European Society for the Cognitive Sciences of Music (ESCOM)"
+      year: 2024
+      # code link to add when available
+
+- heading: Talks and Workshops
+  entries:
+    - authors: "Thomas Nuttall, Lara Pearson"
+      title: "Modelling Coarticulatory Processes in Carnatic Svara Performance"
+      venue: "Invited speaker at the Computational Musicology Special Interest Group at the Music Technology Group"
+      year: 2026
+      links:
+        - { label: link, url: "https://www.youtube.com/watch?v=RfHULj_oTbw" }
+
+    - authors: "Thomas Nuttall"
+      title: "Svara Performance in Carnatic Music and Its Implication for Melodic Analysis Tasks"
+      venue: "Invited speaker at the Workshop on AI Applications for Indian Music at the Indian Institute of Technology, Hyderabad"
+      year: 2025
+      links:
+        - { label: link, url: "https://www.hst.iith.ac.in/indian-music-workshop" }
+
+    - authors: "Thomas Nuttall, Genís Plaja-Roglans, Lara Pearson, Brindha Manickavasakan"
+      title: "Computational Methods for Supporting Corpus-Based Research on Indian Art Music"
+      venue: "Tutorial at the 23rd International Society for Music Information Retrieval Conference (ISMIR)"
+      year: 2022
+      links:
+        - { label: link, url: "https://ismir2022.ismir.net/program/tutorials" }
+
+    - authors: "Thomas Nuttall, Genís Plaja-Roglans, et al"
+      title: "CompMusic Workshop 2022: Introduction to Computational Musicology, a Carnatic Music Perspective"
+      venue: "5-day workshop alongside the 23rd International Society for Music Information Retrieval Conference (ISMIR)"
+      year: 2022
+      links:
+        - { label: link, url: "https://compmusic.upf.edu/workshop-ismir-2022" }
+
+    - authors: "Thomas Nuttall"
+      title: "Segmenting Channel 4 Viewers Using LDA Topic Modelling"
+      venue: "PyData London"
+      year: 2017
+      links:
+        - { label: link, url: "https://pydata.org/london2017/speaker/profile/103/" }

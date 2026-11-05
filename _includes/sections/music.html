@@ -1,0 +1,23 @@
+{% for item in site.data.music %}
+<div class="media-item centered">
+  <h3>{{ item.title }}</h3>
+  {% if item.youtube %}
+    {% include embeds/youtube.html id=item.youtube %}
+  {% elsif item.spotify_album %}
+    {% include embeds/spotify.html id=item.spotify_album %}
+  {% endif %}
+  {% for line in item.caption %}
+  <br>
+  {{ line }}
+  {% endfor %}
+</div>
+{% endfor %}
+
+<h3>Performances</h3>
+{% assign performances = site.data.performances | sort: 'date' | reverse %}
+{% for show in performances %}
+<p>
+  {{ show.act }} at {{ show.venue }}.{% if show.event %} {{ show.event }},{% endif %} {{ show.date | date: "%-d %B %Y" }}.
+  {% include links.html links=show.links %}
+</p>
+{% endfor %}

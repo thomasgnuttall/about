@@ -1,0 +1,8 @@
+<div class="gallery centered">
+  {% for item in site.data.design %}
+  <figure>
+    <div><img src="assets/images/design/{{ item.image }}" alt="{{ item.alt | escape }}"></div>
+    <figcaption>{{ item.title }}.{% if item.year %} {{ item.year }}.{% endif %}{% if item.note %} {{ item.note }}{% endif %}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
