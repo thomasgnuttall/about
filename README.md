@@ -17,7 +17,7 @@ The site is built with [Jekyll](https://jekyllrb.com/). GitHub Pages rebuilds it
 | The about text | `_includes/sections/about.html` | |
 | A new tab | `_data/sections.yml` | Also create `_includes/sections/<id>.html`. |
 
-The site title and description are in `_config.yml`, and the CV is `Thomas_Nuttall_CV.pdf`. Each data file has a comment at the top describing its format.
+The site title and description are in `_config.yml`. Each data file has a comment at the top describing its format.
 
 ## Layout
 
